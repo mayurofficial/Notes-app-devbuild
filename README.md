@@ -13,19 +13,7 @@
   <ol>
     <li><a href="#about-the-project"> ➤ About The Project</a></li>
     <li><a href="#overview"> ➤ Overview</a></li>
-    <li><a href="#project-files-description"> ➤ Project Files Description</a></li>
     <li><a href="#getting-started"> ➤ Getting Started</a></li>
-    <li><a href="#scenario1"> ➤ Scenario 1: Using Canvas To Draw 2d Assets </a></li>
-    <li><a href="#scenario2"> ➤ Scenario 2: Drawing Bricks
-      </a></li>
-    <li><a href="#scenario3"> ➤ Scenario 3: Drawing Ball
-      </a></li>
-    <li><a href="#scenario4"> ➤ Scenario 4: Drawing Paddle
-      </a></li>
-    <li><a href="#scenario5"> ➤ Scenario 5: Collision Detection
-      </a></li>
-    <li><a href="#scenario6"> ➤ Scenario 6: Check Game Over & Restart
-      </a></li>
     <li><a href="#references"> ➤ References</a></li>
     <li><a href="#credits"> ➤ Credits</a></li>
   </ol>
@@ -51,18 +39,6 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<!-- PROJECT FILES DESCRIPTION -->
-<h2 id="project-files-description"> :floppy_disk: Project Files Description</h2>
-
-<ul>
-  <li><b>index.html</b> - Starting screen of the game.</li>
-  <li><b>game.html</b> - Where game UI is present.</li>
-  <li><b>style.css</b> - This is where all the styles are present.</li>
-  <li><b>script.js</b> - The file contains logic behind how the Breakout game works.</li>
-</ul>
-
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <!-- GETTING STARTED -->
 <h2 id="getting-started"> :book: Getting Started</h2>
@@ -73,55 +49,7 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<!-- SCENARIO1 -->
-<h2 id="scenario1"> :small_orange_diamond: Scenario 1: Using Canvas To Draw 2d Assets</h2>
 
-<p> Canvas is an HTML element which can be used to draw graphics via scripting (usually JavaScript).</p>
-<p>This can, for instance, be used to draw graphs, combine photos, or create simple (and not so simple) animations.</p>
-<p>The images appearing on my game is a reflection of <canvas> implementations.</p>
-
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<!-- SCENARIO2 -->
-<h2 id="scenario2"> :small_orange_diamond: Scenario 2: Drawing Bricks</h2>
-
-<p>Enemy bricks are drawn on the canvas by using two for loops and their coordinates are being calculated for collision detection or to make them disappear a ball hot them.</p>
-
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<!-- SCENARIO3 -->
-<h2 id="scenario3"> :small_orange_diamond: Scenario 3: Drawing Ball</h2>
-
-<p>Implemented a ball which turn it's direction when hitting any object in canvas except ground where the game is over.</p>
-
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<!-- SCENARIO4 -->
-<h2 id="scenario4"> :small_orange_diamond: Scenario 4: Drawing Paddle & Key Event Handling</h2>
-
-<p>I have implemented a paddle with key event handler in js to control the direction of ball and keeping it above the ground. Paddle can move across X axis by using Left & Right arrow keys</p>
-
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<!-- SCENARIO5 -->
-<h2 id="scenario5"> :small_orange_diamond: Scenario 5: Collision Detection & Game Score</h2>
-
-<p>I have implemented a colision detection which helps ball to stay inside the canvas and move it's direction when hitting an object or boundries. It also helps to make enemy tiles disappear when coliding with ball.</p>
-<p>Score is being calculated by calculating how many times ball collide with the enemy tiles.</p>
-
-
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<!-- SCENARIO6 -->
-<h2 id="scenario6"> :small_orange_diamond: Scenario 6: Check Game Over & Restart</h2>
-
-<p>Game will be over when ball will miss the paddle and hit the ground.</p>
-<p>A button is provided on the left side of the screen to restart the game.</p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
