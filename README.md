@@ -1,70 +1,139 @@
-# Getting Started with Create React App
+<p align="center"> 
+  <img src="assets/thumbnail.png" alt="Breakout Logo" width="600px" height="300px">
+</p>
+<h1 align="center"> Breakout Game </h1>
+<h3 align="center"> Beta Version </h3>
+<h5 align="center"> JS Mini Project - 1 - <a href="https://www.newtonschool.co/">Newton School</a> (Batch May)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- TABLE OF CONTENTS -->
+<h2 id="table-of-contents"> :book: Table of Contents</h2>
 
-## Available Scripts
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project"> ➤ About The Project</a></li>
+    <li><a href="#overview"> ➤ Overview</a></li>
+    <li><a href="#project-files-description"> ➤ Project Files Description</a></li>
+    <li><a href="#getting-started"> ➤ Getting Started</a></li>
+    <li><a href="#scenario1"> ➤ Scenario 1: Using Canvas To Draw 2d Assets </a></li>
+    <li><a href="#scenario2"> ➤ Scenario 2: Drawing Bricks
+      </a></li>
+    <li><a href="#scenario3"> ➤ Scenario 3: Drawing Ball
+      </a></li>
+    <li><a href="#scenario4"> ➤ Scenario 4: Drawing Paddle
+      </a></li>
+    <li><a href="#scenario5"> ➤ Scenario 5: Collision Detection
+      </a></li>
+    <li><a href="#scenario6"> ➤ Scenario 6: Check Game Over & Restart
+      </a></li>
+    <li><a href="#references"> ➤ References</a></li>
+    <li><a href="#credits"> ➤ Credits</a></li>
+  </ol>
+</details>
 
-In the project directory, you can run:
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-### `npm start`
+<!-- ABOUT THE PROJECT -->
+<h2 id="about-the-project"> :pencil: About The Project</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="justify"> 
+  For those of you not familiar with Breakout, it's a game where a ball moves around in a canvas and tries to destroy the upper tiles pellets with the help of a bottom paddle, while avoiding not hitting the ground. If all the tiles are destroyed you win.
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-### `npm test`
+<!-- OVERVIEW -->
+<h2 id="overview"> :cloud: Overview</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="justify"> 
+  In this project, the ball (soldier) will try to destroy as many enemy tiles possible, by using his/her paddle. I implemented a collision detection mechanism which is used to solve navigation problems in the Breakout world.
+</p>
 
-### `npm run build`
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- PROJECT FILES DESCRIPTION -->
+<h2 id="project-files-description"> :floppy_disk: Project Files Description</h2>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<ul>
+  <li><b>index.html</b> - Starting screen of the game.</li>
+  <li><b>game.html</b> - Where game UI is present.</li>
+  <li><b>style.css</b> - This is where all the styles are present.</li>
+  <li><b>script.js</b> - The file contains logic behind how the Breakout game works.</li>
+</ul>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- GETTING STARTED -->
+<h2 id="getting-started"> :book: Getting Started</h2>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p>Download the project files and open the project folder:</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p>Click on index.html file and the game will run on your default browser.</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## Learn More
+<!-- SCENARIO1 -->
+<h2 id="scenario1"> :small_orange_diamond: Scenario 1: Using Canvas To Draw 2d Assets</h2>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p> Canvas is an HTML element which can be used to draw graphics via scripting (usually JavaScript).</p>
+<p>This can, for instance, be used to draw graphs, combine photos, or create simple (and not so simple) animations.</p>
+<p>The images appearing on my game is a reflection of <canvas> implementations.</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- SCENARIO2 -->
+<h2 id="scenario2"> :small_orange_diamond: Scenario 2: Drawing Bricks</h2>
 
-### Analyzing the Bundle Size
+<p>Enemy bricks are drawn on the canvas by using two for loops and their coordinates are being calculated for collision detection or to make them disappear a ball hot them.</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- SCENARIO3 -->
+<h2 id="scenario3"> :small_orange_diamond: Scenario 3: Drawing Ball</h2>
 
-### Advanced Configuration
+<p>Implemented a ball which turn it's direction when hitting any object in canvas except ground where the game is over.</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<!-- SCENARIO4 -->
+<h2 id="scenario4"> :small_orange_diamond: Scenario 4: Drawing Paddle & Key Event Handling</h2>
 
-### `npm run build` fails to minify
+<p>I have implemented a paddle with key event handler in js to control the direction of ball and keeping it above the ground. Paddle can move across X axis by using Left & Right arrow keys</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<!-- SCENARIO5 -->
+<h2 id="scenario5"> :small_orange_diamond: Scenario 5: Collision Detection & Game Score</h2>
+
+<p>I have implemented a colision detection which helps ball to stay inside the canvas and move it's direction when hitting an object or boundries. It also helps to make enemy tiles disappear when coliding with ball.</p>
+<p>Score is being calculated by calculating how many times ball collide with the enemy tiles.</p>
+
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<!-- SCENARIO6 -->
+<h2 id="scenario6"> :small_orange_diamond: Scenario 6: Check Game Over & Restart</h2>
+
+<p>Game will be over when ball will miss the paddle and hit the ground.</p>
+<p>A button is provided on the left side of the screen to restart the game.</p>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+
+<!-- About Me -->
+<h2 id="credits"> :scroll: Credits</h2>
+
+Mayur Bahugna
+
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mayurofficial)
+[![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://complexfoundation.com)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/complexmayur/)
+
+I am an Indian Freelance Software Developer based in India <a href="http://complexfoundation.com">Checkout my Portfolio for more Cool Projects.</a>
+
