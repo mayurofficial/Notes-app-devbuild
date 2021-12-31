@@ -1,8 +1,7 @@
 <p align="center"> 
   <img src="assets/thumbnail.png" alt="Breakout Logo" width="600px" height="300px">
 </p>
-<h1 align="center"> Breakout Game </h1>
-<h3 align="center"> Beta Version </h3>
+<h1 align="center"> Notes App </h1>
 <h5 align="center"> React JS Mini Project - 1 - <a href="https://www.newtonschool.co/">Newton School</a> (Batch May)
 
 <!-- TABLE OF CONTENTS -->
@@ -45,7 +44,9 @@
 
 <p>Download the project files and open the project folder:</p>
 
-<p>Click on index.html file and the game will run on your default browser.</p>
+<p>Run npm install to install all the dependencies.</p>
+
+<p>Run npm start to start the application.</p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
