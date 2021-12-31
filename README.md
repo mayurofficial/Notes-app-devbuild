@@ -3,7 +3,7 @@
 </p>
 <h1 align="center"> Breakout Game </h1>
 <h3 align="center"> Beta Version </h3>
-<h5 align="center"> JS Mini Project - 1 - <a href="https://www.newtonschool.co/">Newton School</a> (Batch May)
+<h5 align="center"> React JS Mini Project - 1 - <a href="https://www.newtonschool.co/">Newton School</a> (Batch May)
 
 <!-- TABLE OF CONTENTS -->
 <h2 id="table-of-contents"> :book: Table of Contents</h2>
@@ -37,7 +37,7 @@
 <h2 id="about-the-project"> :pencil: About The Project</h2>
 
 <p align="justify"> 
-  For those of you not familiar with Breakout, it's a game where a ball moves around in a canvas and tries to destroy the upper tiles pellets with the help of a bottom paddle, while avoiding not hitting the ground. If all the tiles are destroyed you win.
+  Notes app is a simple note making app which can be used to save the important tasks. It is kind of similar to a todo-list.
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -46,7 +46,7 @@
 <h2 id="overview"> :cloud: Overview</h2>
 
 <p align="justify"> 
-  In this project, the ball (soldier) will try to destroy as many enemy tiles possible, by using his/her paddle. I implemented a collision detection mechanism which is used to solve navigation problems in the Breakout world.
+  This project is based on React Js where states are used to manage the user notes. This app also let user store the data on their local storage.
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
