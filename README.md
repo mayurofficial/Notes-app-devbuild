@@ -43,17 +43,14 @@
 <!-- GETTING STARTED -->
 <h2 id="getting-started"> :book: Getting Started</h2>
 
-<p>Download the project files and open the project folder:</p>
 
-<p>Run npm install to install all the dependencies.</p>
-
-<p>Run npm start to start the application.</p>
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-
+- Download the project files and open the project folder:.
+- Run npm install to install all the dependencies.
+- Run npm start to start the application.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+
 
 
 <!-- About Me -->
