@@ -1,5 +1,5 @@
 <p align="center"> 
-  <img src="assets/thumbnail.png" alt="Breakout Logo" width="600px" height="300px">
+  <img src="notes-app.png" alt="Breakout Logo" width="600px" height="300px">
 </p>
 <h1 align="center"> Notes App </h1>
 <h5 align="center"> React JS Mini Project - 1 - <a href="https://www.newtonschool.co/">Newton School</a> (Batch May)
